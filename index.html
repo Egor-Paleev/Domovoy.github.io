@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домовой - Недвижимость</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <a href="index.html">
+            <img src="image/logo.png" alt="Домовой" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="pred.html">Предложения</a></li>
+                    <li><a href="rieltors.html">Каталог риэлторов</a></li>
+                </ul>
+            </nav>
+            <button class="login-btn">Войти</button>
+        </div>
+    </header>
+    
+    <section class="hero-section">
+        <img src="image/image_city.png" class="hero-img">
+        <div class="hero-content">   
+            <h1 class="hero-title">Квартиры для вас по лучшей цене</h1>
+                <div class="hero-buttons">
+                    <button id="createDiv1Button1" class="hero-button pay_on" autofocus>Купить</button>
+                    <button id="createDiv1Button2" class="hero-button snat_on">Снять</button>
+                    <button id="switchButton" class="hero-button pod_on" >Подбор риелтора</button>
+                </div>
+                <div class="search-bar" id="div1" >
+                    <div class="search-bar-input">
+                        <div class="search-bar-input-content">
+                            <select class="search-bar-input-text">
+                                <option selected>Квартиру</option>
+                                <option>Комнату</option>
+                                <option>Студию</option>
+                                <option>Дом</option>
+                            </select>                       
+                        </div>
+                    </div>
+                    <div class="search-bar-input_room">
+                        <div class="search-bar-input-content">
+                            <select class="search-bar-input-text">
+                                <option>1 комната</option>
+                                <option>2 комнаты</option>
+                                <option>3 комнаты</option>
+                                <option>4 комнаты</option>
+                                <option>5+ комнат</option>
+                            </select>                       
+                        </div>
+                    </div>
+                    <div class="search-bar-input_filter1">
+                        <div>
+                            Цена
+                            <div class="number__column">
+                                <input type="number" class="chislo" placeholder="от"> 
+                                <img src="image/rub.png"> 
+                                <input type="number" class="chislo" placeholder="до"> 
+                                <img src="image/rub.png"> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-bar-button">
+                        <div>
+                            <input class="search-bar-input-poisk" placeholder="Введите город, адрес, район">
+                        </div>
+                    </div>
+                    <div class="search-bar-button_map">
+                        <button class="button_map"><img src="image/Map.png" class="search-bar-map-icon"></button>
+                    </div>
+                    <button class="search-button">Найти</button>
+                </div>
+                <!--  -->
+                <div class="search-bar_2_t" id="div2">
+                    <div class="search-bar" >
+                        <div class="search-bar-input">
+                            <div class="search-bar-input-content">
+                                <select class="search-bar-input-text">
+                                    <option selected>Купить</option>
+                                    <option>Продать</option>
+                                    <option>Снять</option>
+                                    <option>Сдать</option>
+                                </select>                       
+                            </div>
+                        </div>
+                        <div class="search-bar-input_room">
+                            <div class="search-bar-input-content">
+                                <select class="search-bar-input-text">
+                                    <option>Жилая</option>
+                                    <option>Загородная</option>
+                                    <option>Коммерческая</option>
+                                </select>                       
+                            </div>
+                        </div>
+                        <div class="search-bar-input_room">
+                            <div class="search-bar-input-content">
+                                <select class="search-bar-input-text">
+                                    <option>Квартира</option>
+                                    <option>Комната</option>
+                                </select>                       
+                            </div>
+                        </div>
+                        <div class="search-bar-button">
+                            <div>
+                                <input class="search-bar-input-poisk" placeholder="Введите город, адрес, район">
+                            </div>
+                        </div>
+                        <button class="search-button">Найти</button>
+                </div>
+        </div>
+    </section>
+    
+    <section class="reasons">
+        <div class="container">
+            <h2 class="reasons-title">5 причин выбрать «Домовой» для продажи недвижимости</h2>
+                <div class="line-divider"></div>
+                <div class="qwe">
+                    <div class="reasons-list">
+                        <div class="reason">
+                            <div class="reason-content">
+                                <div class="reason-icon">1</div>
+                                <div class="reason-text">Широкий выбор недвижимости: На сайте «Домовой» представлен огромный ассортимент жилой и коммерческой недвижимости различных типов и ценовых категорий.</div>
+                            </div>
+                        </div>
+                        <div class="reason">
+                            <div class="reason-content">
+                                <div class="reason-icon">2</div>
+                                <div class="reason-text">Удобный поиск: Пользователи могут легко находить подходящие объекты недвижимости благодаря удобной системе фильтрации и поиска на сайте.</div>
+                            </div>
+                        </div>
+                        <div class="reason">
+                            <div class="reason-content">
+                                <div class="reason-icon">3</div>
+                                <div class="reason-text">Детальные описания и фотографии: Каждый объект сопровождается подробным описанием, фотографиями и планами помещений, что позволяет получить максимум информации перед принятием решения.</div>
+                            </div>
+                        </div>
+                        <div class="reason">
+                            <div class="reason-content">
+                                <div class="reason-icon">4</div>
+                                <div class="reason-text">Профессиональные консультанты: Квалифицированные специалисты всегда готовы помочь пользователям с выбором недвижимости, консультацией по юридическим вопросам и оформлением сделок.</div>
+                            </div>
+                        </div>
+                        <div class="reason">
+                            <div class="reason-content">
+                                <div class="reason-icon">5</div>
+                                <div class="reason-text">Безопасность сделок: сайт «Домовой» предоставляет гарантии безопасности сделок и защиты интересов клиентов при покупке недвижимости.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="highlights-content">
+                        <div class="highlight-image-wrapper">
+                            <img src="image/recom.png" class="highlight-image" alt="Highlight Image" />
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    
+    <section class="recommendations">
+        <div class="container">
+            <h2>Рекомендации</h2>
+            <div class="recommendation-list">
+                <div class="recommendation-item">
+                    <a href="s_pred.html">
+                        <div class="recommendation-card">
+                            <div class="recommendation-card-content">
+                                <img src="image/apartaments/apart_1/apartament.png" alt="Квартира" class="recommendation-card-img">                            <div class="recommendation-card-price">
+                                    <span class="recommendation-card-price-number">4 393 333</span>
+                                    <span class="recommendation-card-price-currency">₽</span>
+                                </div>
+                            </div>
+                            <h3 class="recommendation-card-title">1-комн кв • 44 м² • 6 этаж в Басманном районе</h3>
+                            <div class="recommendation-card-divider"></div>
+                            <address class="recommendation-card-address">АО, р-н Басманный, Сыромятнический проезд, 7/14</address>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="recommendation-item">
+                    <a href="s_pred.html">
+                        <div class="recommendation-card">
+                            <div class="recommendation-card-content">
+                                <img src="image/apartaments/apart_2/apart1.jpeg" alt="Квартира" class="recommendation-card-img">                            <div class="recommendation-card-price">
+                                    <span class="recommendation-card-price-number">4 250 000</span>
+                                    <span class="recommendation-card-price-currency">₽</span>
+                                </div>
+                            </div>
+                            <h3 class="recommendation-card-title">Продается 1-комн. апартаменты, 14,3 м²</h3>
+                            <div class="recommendation-card-divider"></div>
+                            <address class="recommendation-card-address">Москва, ЮВАО, р-н Нижегородский, ш. Фрезер, 17АС1</address>
+                        </div>
+                    </a>
+                </div>
+                <div class="recommendation-item">
+                    <a href="s_pred.html">
+                        <div class="recommendation-card">
+                            <div class="recommendation-card-content">
+                                <img src="image/apartaments/apart_3/apart1.jpeg" alt="Квартира" class="recommendation-card-img">                            <div class="recommendation-card-price">
+                                    <span class="recommendation-card-price-number">4 500 000</span>
+                                    <span class="recommendation-card-price-currency">₽</span>
+                                </div>
+                            </div>
+                            <h3 class="recommendation-card-title">Продается 1-комн. апартаменты, 17,8 м²</h3>
+                            <div class="recommendation-card-divider"></div>
+                            <address class="recommendation-card-address">Москва, САО, р-н Хорошевский, 3-я Магистральная ул., 20Б</address>
+                        </div>
+                    </a>
+                </div>
+                <div class="recommendation-item">
+                    <a href="s_pred.html">
+                        <div class="recommendation-card">
+                            <div class="recommendation-card-content">
+                                <img src="image/apartaments/apart_4/apart1.jpeg" alt="Квартира" class="recommendation-card-img">                            <div class="recommendation-card-price">
+                                    <span class="recommendation-card-price-number">4 090 000</span>
+                                    <span class="recommendation-card-price-currency">₽</span>
+                                </div>
+                            </div>
+                            <h3 class="recommendation-card-title">Продается 1-комн. апартаменты, 11,2 м²
+                                в ЖК «Эталон-Сити»</h3>
+                            <div class="recommendation-card-divider"></div>
+                            <address class="recommendation-card-address">Москва, ЮЗАО, р-н Южное Бутово, ул. Поляны, 5</address>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommendation-list">
+                <div class="recommendation-item">
+                    <a href="s_pred.html">
+                        <div class="recommendation-card">
+                            <div class="recommendation-card-content">
+                                <img src="image/apartaments/apart_5/apart1.jpeg" alt="Квартира" class="recommendation-card-img">                            <div class="recommendation-card-price">
+                                    <span class="recommendation-card-price-number">4 150 000</span>
+                                    <span class="recommendation-card-price-currency">₽</span>
+                                </div>
+                            </div>
+                            <h3 class="recommendation-card-title">Продается 1/2 квартиры, 53,9/31/9 м²</h3>
+                            <div class="recommendation-card-divider"></div>
+                            <address class="recommendation-card-address">Москва, ВАО, р-н Косино-Ухтомский, Святоозерская ул., 21</address>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="recommendation-item">
+                    <a href="s_pred.html">
+                        <div class="recommendation-card">
+                            <div class="recommendation-card-content">
+                                <img src="image/apartaments/apart_6/apart1.jpeg" alt="Квартира" class="recommendation-card-img">                            <div class="recommendation-card-price">
+                                    <span class="recommendation-card-price-number">4 500 000</span>
+                                    <span class="recommendation-card-price-currency">₽</span>
+                                </div>
+                            </div>
+                            <h3 class="recommendation-card-title">Продается 1/2 квартиры, 51/31/9 м²
+                            </h3>
+                            <div class="recommendation-card-divider"></div>
+                            <address class="recommendation-card-address">Москва, ЮАО, р-н Чертаново Центральное, ул. Красного Маяка, 13К3</address>
+                        </div>
+                    </a>
+                </div>
+                <div class="recommendation-item">
+                    <a href="s_pred.html">
+                        <div class="recommendation-card">
+                            <div class="recommendation-card-content">
+                                <img src="image/apartaments/apart_7/apart1.jpeg" alt="Квартира" class="recommendation-card-img">                            <div class="recommendation-card-price">
+                                    <span class="recommendation-card-price-number">2 990 000</span>
+                                    <span class="recommendation-card-price-currency">₽</span>
+                                </div>
+                            </div>
+                            <h3 class="recommendation-card-title">Продается 1-комн. апартаменты, 9,6 м²</h3>
+                            <div class="recommendation-card-divider"></div>
+                            <address class="recommendation-card-address">Москва, ВАО, р-н Северное Измайлово, Сиреневый бул., 15</address>
+                        </div>
+                    </a>
+                </div>
+                <div class="recommendation-item">
+                    <a href="s_pred.html">
+                        <div class="recommendation-card">
+                            <div class="recommendation-card-content">
+                                <img src="image/apartaments/apart_other/ap1.jpeg" alt="Квартира" class="recommendation-card-img">                            <div class="recommendation-card-price">
+                                    <span class="recommendation-card-price-number">3 500 000</span>
+                                    <span class="recommendation-card-price-currency">₽</span>
+                                </div>
+                            </div>
+                            <h3 class="recommendation-card-title">Продается 1-комн. апартаменты, 11 м²</h3>
+                            <div class="recommendation-card-divider"></div>
+                            <address class="recommendation-card-address">Москва, ЦАО, р-н Пресненский, Стрельбищенский пер., 22А</address>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <button class="more-btn" id="show-more-btn">Показать ещё</button>
+            <div id="recommendation-list-container"></div>
+    </section>
+    
+    <section class="specialists">
+        <div class="container">
+            <h2>Наши специалисты</h2>
+            <div class="specialists-list">
+                <div class="specialist">
+                    <img src="image/face_only/face_1.png" class="specialist-img" alt="Specialist Image" />
+                    <div class="specialist-details">
+                        <h3 class="specialist-name">Томас Анджело</h3>
+                        <p class="specialist-role">Продажа недвижимости: жилая, загородная</p>
+                    </div>
+                </div>
+                <div class="specialist">
+                    <img src="image/face_only/face_2.png" class="specialist-img" alt="Specialist Image" />
+                    <div class="specialist-details">
+                        <h3 class="specialist-name">Иван Станиславов</h3>
+                        <p class="specialist-role">Продажа недвижимости: жилая, загородная</p>
+                    </div>
+                </div>
+                <div class="specialist">
+                    <img src="image/face_only/face_3.png" class="specialist-img" alt="Specialist Image" />
+                    <div class="specialist-details">
+                        <h3 class="specialist-name">Лена Головач</h3>
+                        <p class="specialist-role">Продажа недвижимости: жилая, загородная</p>
+                    </div>
+                </div>
+            </div>
+            <div class="specialists-list">
+                <div class="specialist">
+                    <img src="image/face_only/face_4.png" class="specialist-img" alt="Specialist Image" />
+                    <div class="specialist-details">
+                        <h3 class="specialist-name">Владимир Латышев</h3>
+                        <p class="specialist-role">Аренда недвижимости: жилая, коммерческая</p>
+                    </div>
+                </div>
+                <div class="specialist">
+                    <img src="image/face_only/face_5.png" class="specialist-img" alt="Specialist Image" />
+                    <div class="specialist-details">
+                        <h3 class="specialist-name">Станислав Иванов</h3>
+                        <p class="specialist-role">Продажа недвижимости: жилая, загородная</p>
+                    </div>
+                </div>
+                <div class="specialist">
+                    <img src="image/face_only/face_6.png" class="specialist-img" alt="Specialist Image" />
+                    <div class="specialist-details">
+                        <h3 class="specialist-name">Никита Топский</h3>
+                        <p class="specialist-role">Продажа недвижимости: жилая, загородная</p>
+                    </div>
+                </div>
+            </div>
+            <div class="specialists-list">
+                <div class="specialist">
+                    <img src="image/face_only/face_7.png" class="specialist-img" alt="Specialist Image" />
+                    <div class="specialist-details">
+                        <h3 class="specialist-name">Андрей Шатов</h3>
+                        <p class="specialist-role">Продажа недвижимости: жилая, загородная</p>
+                    </div>
+                </div>
+                <div class="specialist">
+                    <img src="image/face_only/face_8.png" class="specialist-img" alt="Specialist Image" />
+                    <div class="specialist-details">
+                        <h3 class="specialist-name">Артём Панкратов</h3>
+                        <p class="specialist-role">Продажа недвижимости: жилая, загородная</p>
+                    </div>
+                </div>
+                <div class="specialist">
+                    <img src="image/face_only/face_9.png" class="specialist-img" alt="Specialist Image" />
+                    <div class="specialist-details">
+                        <h3 class="specialist-name">Евгения Констанинопольская</h3>
+                        <p class="specialist-role">Продажа недвижимости: жилая, загородная</p>
+                    </div>
+                </div>
+            </div>
+            <a href="rieltors.html"><button class="more-btn">Показать ещё</button></a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container_f">
+            <img src="image/logo.png" alt="Домовой" class="logo">
+            <div class="line-divider"></div>
+            <div class="footer-links">
+                <a href="index.html">Главная</a><br>
+                <a href="pred.html">Предложения</a><br>
+                <a href="rieltors.html">Риэлторы</a><br>
+            </div>
+        </div>
+    </footer>
+    <script src="javascript/test3.js"></script> 
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домовой - Недвижимость</title>
+    <link rel="stylesheet" href="css/s_pred_s.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <a href="index.html">
+            <img src="image/logo.png" alt="Домовой" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="pred.html">Предложения</a></li>
+                    <li><a href="rieltors.html">Каталог риэлторов</a></li>
+                </ul>
+            </nav>
+            <button class="login-btn">Войти</button>
+        </div>
+    </header>
+
+    <section class="recommendations">
+        <div class="container">
+            <div class="text_pred">
+                <h3 class="p_h1">1-комн кв • 44 м² • 6 этаж в Басманном районе</h3>
+                <p class="p_p1">Москва, ЦАО, р-н Басманный, Сыромятнический проезд, 7</p>
+            </div>
+            <div class="predl">
+                <div class="predl1">
+                    <div class="phot_phon">
+                        <button id="prevButton" class="phot_phon_b"   ><img src="image/rith.png"></button>
+                        <img id="imageu" alt="Image" src="image/apartaments/apart_2/apart1.jpeg" class="phot_os">
+                        <button class="phot_phon_b" id="nextButton"><img src="image/lft.png"></button>
+                    </div>
+                    <script>
+                        const images = [
+                            'image/apartaments/apart_2/apart1.jpeg',
+                            'image/apartaments/apart_2/apart2.jpeg',
+                            'image/apartaments/apart_2/apart3.jpeg',
+                            'image/apartaments/apart_2/apart4.jpeg',
+                            'image/apartaments/apart_2/apart5.jpeg',
+                        ];
+                
+                        let currentIndex = 0;
+                
+                        function showImage(index) {
+                            const imageElement = document.getElementById('imageu');
+                            imageElement.src = images[index];
+                        }
+                
+                        document.getElementById('prevButton').addEventListener('click', function() {
+                            currentIndex = (currentIndex - 1 + images.length) % images.length;
+                            showImage(currentIndex);
+                        });
+                
+                        document.getElementById('nextButton').addEventListener('click', function() {
+                            currentIndex = (currentIndex + 1) % images.length;
+                            showImage(currentIndex);
+                        });
+                    </script>
+                    <div class="ops_s_line">
+                        <div class="ops_s_line_1">
+                            <div class="line_text">
+                                <p class="lt1">Кол-во комнат:</p>
+                                <p class="lt2">1</p>
+                            </div>
+                            <div class="line-div"></div>
+                            <div class="line_text">
+                                <p class="lt1">Общая площадь</p>
+                                <p class="lt2">44м²</p>
+                            </div>
+                            <div class="line-div"></div>
+                            <div class="line_text">
+                                <p class="lt1">Высота потолков</p>
+                                <p class="lt2">2,95м</p>
+                            </div>
+                            <div class="line-div"></div>
+                            <div class="line_text">
+                                <p class="lt1">Кол-во санузлов</p>
+                                <p class="lt2">1</p>
+                            </div>
+                            <div class="line-div"></div>
+                            <div class="line_text">
+                                <p class="lt1">Санузел</p>
+                                <p class="lt2">Совмщенный</p>
+                            </div>
+                            <div class="line-div"></div>
+                        </div>
+                        <div class="ops_s_line_1">
+                            <div class="line_text">
+                                <p class="lt1">Кухонная мебель</p>
+                                <p class="lt2">есть</p>
+                            </div>
+                            <div class="line-div"></div>
+                            <div class="line_text">
+                                <p class="lt1">Стиральная машина</p>
+                                <p class="lt2">есть</p>
+                            </div>
+                            <div class="line-div"></div>
+                            <div class="line_text">
+                                <p class="lt1">Балкон</p>
+                                <p class="lt2">есть</p>
+                            </div>
+                            <div class="line-div"></div>
+                            <div class="line_text">
+                                <p class="lt1">Выход из окон</p>
+                                <p class="lt2">На улицу и двор</p>
+                            </div>
+                            <div class="line-div"></div>
+                            <div class="line_text">
+                                <p class="lt1">Ремонт</p>
+                                <p class="lt2">Евроремонт</p>
+                            </div>
+                            <div class="line-div"></div>
+                        </div>    
+                    </div>
+                    <div class="text-pod">
+                        <h2 >Описание</h2>
+                        <p>Обмен на 2-х или 3-х комнатную благоустроенную квартиру в центре с горячим водоснабжением не выше 3 этажа. Доплата по договорённости. Чистая и светлая 1-комнатная квартира после ремонта, окна на юг, на центральную площадь. Продажи НЕТ, только обмен. Звонить после 11 часов.</p>
+                    </div>
+                </div>
+                <div class="predl2">
+                    <div class="pokaz">
+                        <img src="image/gl.png">
+                        <p class="p_pokaz">665 просмотров, 48 за сегодня</p>
+                    </div>
+                    <div class="stoim">
+                        <h3 class="stoim_h">4 393 333 ₽</h3>
+                        <p class="stoim_p">467 706 ₽/м²</p>
+                    </div>
+                    <div class="line-p2"></div>
+                    <div class="specialist">
+                        <img src="image/face_only/face_1.png" class="specialist-img" alt="Specialist Image" />
+                        <div class="specialist-details">
+                            <h3 class="specialist-name">Артём Панкратов</h3>
+                            <p class="specialist-role">Собственник</p>
+                        </div>
+                    </div>
+                    <button class="but_namber" text1="Показать телефон" hover-text="+7 (999) 827 64-64"></button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container_f">
+            <img src="image/logo.png" alt="Домовой" class="logo">
+            <div class="line-divider_f"></div>
+            <div class="footer-links">
+                <a href="index.html">Главная</a><br>
+                <a href="pred.html">Предложения</a><br>
+                <a href="rieltors.html">Риэлторы</a><br>
+            </div>
+        </div>
+    </footer>
+    <script src="javascript/test3.js"></script> 
+</body>
+</html>
